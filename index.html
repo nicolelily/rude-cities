@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>America's Rudest Cities 2024 - Interactive Map</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header-content">
+                <div class="title-section">
+                    <h1>America's Rudest Cities 2024</h1>
+                    <p class="subtitle">An interactive map exploring rudeness scores across major US cities</p>
+                </div>
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+                    <i class="fas fa-moon" id="theme-icon"></i>
+                </button>
+            </div>
+        </header>
+
+        <div class="content-wrapper">
+            <div class="map-section">
+                <div class="map-container">
+                    <div id="map"></div>
+                </div>
+                
+                <div class="legend-card">
+                    <div class="legend">
+                        <!-- Legend content will be populated by JavaScript -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="analysis">
+                <h2>Key Insights</h2>
+                <div class="insights-grid">
+                    <div class="insight-card">
+                        <h3>Top 3 Rudest Cities</h3>
+                        <ol>
+                            <li><strong>Miami, FL</strong> - 9.88</li>
+                            <li><strong>Philadelphia, PA</strong> - 9.12</li>
+                            <li><strong>Tampa, FL</strong> - 8.88</li>
+                        </ol>
+                    </div>
+                    
+                    <div class="insight-card">
+                        <h3>Regional Patterns</h3>
+                        <p>Florida dominates the top rankings with 3 cities in the top 12. The Northeast and West Coast also show higher rudeness scores, while Midwest cities tend to be more polite.</p>
+                    </div>
+                    
+                    <div class="insight-card">
+                        <h3>Score Distribution</h3>
+                        <p>Rudeness scores ranged from 6.24 (Omaha, NE) to 9.88 (Miami, FL). The average is 7.64.</p>
+                    </div>
+                </div>
+
+                <div class="methodology">
+                    <h3>About the Data</h3>
+                    <p>This data visualization is based on <a href="https://preply.com/en/blog/rudest-cities-2024/" target="_blank" rel="noopener noreferrer">Preply's 2024 study of America's rudest cities</a>. The study analyzed factors including road rage, customer service interactions, and general civility to generate rudeness scores for major US metropolitan areas.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="main.js"></script>
+</body>
+</html>
