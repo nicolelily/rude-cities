@@ -2,11 +2,7 @@
 
 An interactive data visualization exploring rudeness scores across major US cities, based on Preply's 2024 study.
 
-![Interactive Map Preview](https://via.placeholder.com/800x400/13D0B4/FFFFFF?text=Interactive+Rudeness+Map)
-
-## 🗺️ Live Demo
-
-[View the Interactive Map](#) <!-- Update with your deployed URL -->
+🔗 **[View Live Project: America's Rudest Cities 2024](https://nicolelily.github.io/rude-cities/)**
 
 ## 📊 Features
 
@@ -49,7 +45,7 @@ An interactive data visualization exploring rudeness scores across major US citi
 
 1. Clone the repository
 ```bash
-git clone https://github.com/[your-username]/rude-cities.git
+git clone https://github.com/nicolelily/rude-cities.git
 cd rude-cities
 ```
 
@@ -123,9 +119,9 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 
 ## 📧 Contact
 
-Nicole Mark - [@nicolemark](https://github.com/nicolelily)
+Nicole Mark - [@nicolelily](https://github.com/nicolelily)
 
-Project Link: [https://nicolelily.github.io/rude-cities/(https://nicolelily.github.io/rude-cities/)
+Project Link: [https://nicolelily.github.io/rude-cities/](https://nicolelily.github.io/rude-cities/)
 
 ---
 
