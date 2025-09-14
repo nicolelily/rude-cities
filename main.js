@@ -89,7 +89,10 @@ function calculateQuartiles(scores) {
 }
 
 // Load and parse CSV data
-Papa.parse('./preply-rudest-cities-2024.csv', {
+// Use path relative to the current page location
+const csvPath = new URL('preply-rudest-cities-2024.csv', window.location.href).href;
+
+Papa.parse(csvPath, {
     download: true,
     header: true,
     complete: function(results) {
