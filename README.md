@@ -125,7 +125,7 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 
 Nicole Mark - [@nicolemark](https://github.com/nicolemark)
 
-Project Link: [https://github.com/nicolemark/rude-cities](https://github.com/nicolemark/rude-cities)
+Project Link: [https://github.com/nicolelily/rude-cities](https://github.com/nicolelily/rude-cities)
 
 ---
 
